@@ -1,0 +1,26 @@
+/* #graphContainer {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+} */
+.link {
+    stroke:black;
+    stroke-width: 2px;
+}        
+.node {
+    fill: gray;
+    stroke: #fff;
+    stroke-width: 2px;
+    cursor: move;
+}
+.node text {
+    pointer-events: none;
+    font-size: 12px;
+    fill: white;
+    text-anchor: middle;
+    dominant-baseline: central;
+}
